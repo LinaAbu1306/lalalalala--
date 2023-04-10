@@ -1,0 +1,14 @@
+let login = true;
+let course1 = "js";
+let course2 = "java";
+let course = course1;
+let region = "Usa";
+
+if (login == true) {
+  if (course == course1) {
+    console.log("Welcome");
+    if (region != "Usa") console.log("Wake up early!");
+  } else console.log("Go to Jave");
+} else {
+  console.log("Login is not correct");
+}
